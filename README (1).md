@@ -188,13 +188,6 @@ In short:
 See `SECURITY.md` for the full review.
 
 ## Known limits
-
-- The request board, helper coins, health log and doctor summary still store data in the browser, so they are per device. Medicines, doses, appointments and accounts are on the server.
-- The GitHub Pages demo is browser-only: no Care Circle, shared schedule, emails or password reset.
-- Volunteer helper accounts are browser-only and cannot reset a password by email.
-- Email addresses are not verified at sign-up.
-- One server instance with SQLite. Scaling out needs Postgres and a message bus.
-- Health data is not encrypted at rest. Before real users, add HTTPS, an encrypted disk or database, and a privacy notice and consent flow under India's DPDP Act 2023.
 - ElderEase is a reminder tool, not medical advice or an emergency service. In an emergency, call 112.
 
 ## Fonts
